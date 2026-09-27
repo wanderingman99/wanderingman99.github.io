@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Places Visited</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;}
+    header {
+      background-color: #2b3a42;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem; }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;}
+    h2 {
+      color: #1e555c;
+      border-bottom: 2px solid #1e555c;
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;}
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 1rem; }
+    .gallery img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);  }
+    .food-link {
+      background-color: #e63946;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 1rem;
+      font-weight: bold;  }
+    .food-link:hover {
+      background-color: #c1121f; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Places I Have Visited</h1>
+    <p>A look back at some of my favorite travels and memories from abroad.</p>
+  </header>
+
+  <main>
+    <!-- Heading 1 -->
+    <section>
+      <h2>Portugal & Spain</h2>
+      <p>Exploring historical landmarks, and incredible cultural sites across Portugal and Spain.</p>
+      
+      <div class="gallery">
+        <!-- Replace src values below with your image filenames -->
+        <img src="Portugalimg1.jpeg.jpeg" alt="Portugal/Spain Photo 1">
+        <img src="IMG_5169.jpeg" alt="Portugal/Spain Photo 2">
+        <img src="IMG_5427.jpeg" alt="Portugal/Spain Photo 3">
+        <img src="IMG_5351.jpeg" alt="Portugal/Spain Photo 4">
+        <img src="IMG_5373.jpeg" alt="Portugal/Spain Photo 5">
+      </div>
+    </section>
+
+    <!-- Heading 2 -->
+    <section>
+      <h2>Rome</h2>
+      <p>Walking through ancient history, beautiful architecture, and tasting world-class Italian cuisine.</p>
+      
+      <div class="gallery">
+        <!-- Replace src values below with your image filenames -->
+        <img src="image000001.JPG" alt="Rome Photo 1">
+        <img src="image000003.JPG" alt="Rome Photo 2">
+        <img src="image000000 (1).JPG" alt="Rome Photo 3">
+        <img src="image000002.JPG" alt="Rome Photo 4">
+        <img src="image000004.JPG" alt="Rome Photo 5">
+      </div>
+
+      <p>Check out some of the top-rated pizza and pasta spots in Rome:</p>
+      <a class="food-link" href="https://www.yelp.com/search?find_desc=best+pizza+and+pasta&find_loc=Rome%2C+Italy" target="_blank">
+        Best Pizza & Pasta in Rome on Yelp
+      </a>
+    </section>
+  </main>
+
+</body>
+</html>
